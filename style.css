@@ -16,7 +16,7 @@ body{
  
 .btn_one {
     color: white;
-    font-size: 27px;
+    font-size: 30px;
     font-weight: 700;
     position: absolute;
     left: 16px;
@@ -28,9 +28,9 @@ body{
 }
 .sidebar_menu {
     position: fixed;
-    left: -330px;
-    width: 230px;
-    height: 100525px;
+    /* left: -330px; */
+    width: 300px;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 6px rgba(255, 255, 255, 0.512);
     border-radius: 0 10px 10px 0 ;
@@ -40,8 +40,8 @@ body{
 .sidebar_menu .logo {
     position: absolute;
     width: 100%;
-    height: 50px;
-    box-shadow: 0 0 4px rgba(255, 255, 255, 0.512);
+    height: 70px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.512);
     border-radius: 0 10px 10px 0 ;
 }
 .sidebar_menu .logo a {
@@ -49,7 +49,7 @@ body{
     left: 50px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     top: 10px ;
     
@@ -60,8 +60,8 @@ body{
     font-size: 25px;
     position: absolute;
    
-    left: 210px;
-    top: 5px
+    left: 275px;
+    
     
 }
 
@@ -78,8 +78,8 @@ body{
 }
 
 .sidebar_menu .menu li {
-    margin-top: 6px;
-    padding: 7px 20px;
+    margin-top: 10px;
+    padding: 13px 20px;
     transition: 0.2s ease-in-out 0s;
     border-radius: 0 5px 5px 0;
 }
@@ -87,7 +87,7 @@ body{
 .sidebar_menu .menu i,a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .sidebar_menu .menu i {
@@ -98,15 +98,16 @@ body{
     color: white;
     opacity: 0.7;
     position: absolute;
-    left: 25%;
-    top: 460px;
+    left: 22%;
+    bottom: 60px;
+    font-size: 40px;
 
 }
 
 .sidebar_menu .social_media i{
 color: rgb(255, 255, 255);
     opacity: 0.5;
-    padding: 0 5px;
+    padding: 0 6px;
     transition: 0.2s ease-in-out 0s;
 }
 
